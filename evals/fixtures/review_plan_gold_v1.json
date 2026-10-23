@@ -1,0 +1,514 @@
+{
+  "gold_id": "review-plan-gold-v1-draft",
+  "dataset_id": "student-agent-synthetic-v3",
+  "case_count": 20,
+  "provenance": "业务预期拷贝后独立检查原始数据；尚未人工复核",
+  "cases": [
+    {
+      "case_id": "main_top2_plan",
+      "reference": {
+        "status": "success",
+        "topics": [
+          "布尔判断",
+          "Python列表"
+        ],
+        "evidence_question_ids": [
+          "Q_BOOL_01",
+          "Q_LIST_01",
+          "Q_LIST_02"
+        ],
+        "task_topics": [
+          "布尔判断",
+          "Python列表"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "list_single_topic",
+      "reference": {
+        "status": "success",
+        "topics": [
+          "Python列表"
+        ],
+        "evidence_question_ids": [
+          "Q_LIST_01",
+          "Q_LIST_02"
+        ],
+        "task_topics": [
+          "Python列表"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "function_single_topic",
+      "reference": {
+        "status": "success",
+        "topics": [
+          "函数返回值"
+        ],
+        "evidence_question_ids": [
+          "Q_FUNC_01",
+          "Q_FUNC_02"
+        ],
+        "task_topics": [
+          "函数返回值"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "mixed_four_topics",
+      "reference": {
+        "status": "success",
+        "topics": [
+          "Python字典",
+          "函数返回值"
+        ],
+        "evidence_question_ids": [
+          "Q_DICT_01",
+          "Q_DICT_02",
+          "Q_FUNC_01"
+        ],
+        "task_topics": [
+          "Python字典",
+          "函数返回值"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "both_course_scope",
+      "reference": {
+        "status": "success",
+        "topics": [
+          "Python列表"
+        ],
+        "evidence_question_ids": [
+          "Q_LIST_01"
+        ],
+        "task_topics": [
+          "Python列表"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "loop_three_errors",
+      "reference": {
+        "status": "success",
+        "topics": [
+          "Python循环"
+        ],
+        "evidence_question_ids": [
+          "Q_LOOP_01",
+          "Q_LOOP_02"
+        ],
+        "task_topics": [
+          "Python循环"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "dict_three_errors",
+      "reference": {
+        "status": "success",
+        "topics": [
+          "Python字典",
+          "函数返回值"
+        ],
+        "evidence_question_ids": [
+          "Q_DICT_01",
+          "Q_DICT_02",
+          "Q_FUNC_02"
+        ],
+        "task_topics": [
+          "Python字典",
+          "函数返回值"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "slice_two_topics",
+      "reference": {
+        "status": "success",
+        "topics": [
+          "布尔判断",
+          "Python列表"
+        ],
+        "evidence_question_ids": [
+          "Q_BOOL_01",
+          "Q_LIST_01",
+          "Q_LIST_04"
+        ],
+        "task_topics": [
+          "布尔判断",
+          "Python列表"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "retry_repeat_wrong",
+      "reference": {
+        "status": "success",
+        "topics": [
+          "Python循环",
+          "函数返回值"
+        ],
+        "evidence_question_ids": [
+          "Q_LOOP_01",
+          "Q_FUNC_01",
+          "Q_FUNC_02"
+        ],
+        "task_topics": [
+          "Python循环",
+          "函数返回值"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "hybrid_top2",
+      "reference": {
+        "status": "success",
+        "topics": [
+          "布尔判断",
+          "Python字典"
+        ],
+        "evidence_question_ids": [
+          "Q_BOOL_01",
+          "Q_DICT_03"
+        ],
+        "task_topics": [
+          "布尔判断",
+          "Python字典"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "empty_no_exam",
+      "reference": {
+        "status": "no_recorded_wrong_questions",
+        "topics": [],
+        "evidence_question_ids": [],
+        "task_topics": []
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "correct_verify_zero",
+      "reference": {
+        "status": "no_recorded_wrong_questions",
+        "topics": [],
+        "evidence_question_ids": [],
+        "task_topics": []
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "no_explanation",
+      "reference": {
+        "status": "course_materials_not_configured",
+        "topics": [
+          "异常处理"
+        ],
+        "evidence_question_ids": [
+          "Q_NOEX_01"
+        ],
+        "task_topics": []
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "loop_no_material",
+      "reference": {
+        "status": "course_materials_not_configured",
+        "topics": [
+          "Python循环"
+        ],
+        "evidence_question_ids": [
+          "Q_LOOP_01",
+          "Q_LOOP_02"
+        ],
+        "task_topics": []
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "dict_partial_func",
+      "reference": {
+        "status": "partial",
+        "topics": [
+          "Python字典",
+          "函数返回值"
+        ],
+        "evidence_question_ids": [
+          "Q_DICT_01",
+          "Q_DICT_02",
+          "Q_FUNC_02"
+        ],
+        "task_topics": [
+          "Python字典"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "hybrid_partial",
+      "reference": {
+        "status": "partial",
+        "topics": [
+          "布尔判断",
+          "Python字典"
+        ],
+        "evidence_question_ids": [
+          "Q_BOOL_01",
+          "Q_DICT_03"
+        ],
+        "task_topics": [
+          "布尔判断"
+        ]
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "slice_no_relevant",
+      "reference": {
+        "status": "course_materials_insufficient",
+        "topics": [
+          "布尔判断",
+          "Python列表"
+        ],
+        "evidence_question_ids": [
+          "Q_BOOL_01",
+          "Q_LIST_01",
+          "Q_LIST_04"
+        ],
+        "task_topics": []
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "dict_mcp_failure",
+      "reference": {
+        "status": "material_retrieval_failed",
+        "topics": [
+          "Python字典",
+          "函数返回值"
+        ],
+        "evidence_question_ids": [
+          "Q_DICT_01",
+          "Q_DICT_02",
+          "Q_FUNC_02"
+        ],
+        "task_topics": []
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "session_ownership",
+      "reference": {
+        "status": "PermissionError",
+        "topics": [],
+        "evidence_question_ids": [],
+        "task_topics": []
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    },
+    {
+      "case_id": "session_ownership_v3",
+      "reference": {
+        "status": "PermissionError",
+        "topics": [],
+        "evidence_question_ids": [],
+        "task_topics": []
+      },
+      "review": {
+        "status": "pending_human",
+        "reviewer": null,
+        "reviewed_at": null,
+        "topic_priority_correct": null,
+        "evidence_selection_correct": null,
+        "expected_status_correct": null,
+        "acceptable_material_ids": null,
+        "notes": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "dataset_id": "student-agent-synthetic-v1",
+  "description": "完全虚构的固定业务证据；用于 Agent 编排评测，不代表真实学生数据或真实 RAG 召回。",
+  "submitted_at": "2026-09-01T10:00:00",
+  "students": [
+    {"id": "S_EVAL_MAIN", "name": "评测学生"},
+    {"id": "S_EVAL_EMPTY", "name": "无错题学生"},
+    {"id": "S_EVAL_OTHER", "name": "其他课程学生"}
+  ],
+  "courses": [
+    {"id": "C_EVAL_MAIN", "code": "EVALMAIN", "name": "评测 Python 课"},
+    {"id": "C_EVAL_OTHER", "code": "EVALOTHER", "name": "隔离课程"}
+  ],
+  "enrollments": [
+    {"student_id": "S_EVAL_MAIN", "course_id": "C_EVAL_MAIN"},
+    {"student_id": "S_EVAL_EMPTY", "course_id": "C_EVAL_MAIN"},
+    {"student_id": "S_EVAL_OTHER", "course_id": "C_EVAL_OTHER"}
+  ],
+  "questions": [
+    {"id": "Q_LIST_01", "course_id": "C_EVAL_MAIN", "topic": "Python列表", "type": "single_choice", "difficulty": "easy", "stem": "列表 [10,20,30] 最大合法正向索引是多少？", "options": {"A": "2", "B": "3"}, "answer_key": "A", "explanation": "长度为3时合法正向索引为0、1、2。"},
+    {"id": "Q_FUNC_01", "course_id": "C_EVAL_MAIN", "topic": "函数返回值", "type": "single_choice", "difficulty": "easy", "stem": "Python 函数没有 return 时返回什么？", "options": {"A": "None", "B": "空字符串"}, "answer_key": "A", "explanation": "没有显式 return 时返回 None。"},
+    {"id": "Q_SECRET_01", "course_id": "C_EVAL_OTHER", "topic": "隔离知识点", "type": "single_choice", "difficulty": "easy", "stem": "隔离课程的题目？", "options": {"A": "秘密正确答案是 Z", "B": "其他"}, "answer_key": "A", "explanation": "秘密正确答案是 Z"}
+  ],
+  "exams": [
+    {"id": "E_EVAL_MAIN", "course_id": "C_EVAL_MAIN", "title": "Python 单元测验", "question_ids": ["Q_LIST_01", "Q_FUNC_01"]},
+    {"id": "E_EVAL_OTHER", "course_id": "C_EVAL_OTHER", "title": "隔离测验", "question_ids": ["Q_SECRET_01"]}
+  ],
+  "attempts": [
+    {"exam_id": "E_EVAL_MAIN", "student_id": "S_EVAL_MAIN", "answers": [{"question_id": "Q_LIST_01", "answer": "B", "is_correct": false, "score": 0.0}, {"question_id": "Q_FUNC_01", "answer": "B", "is_correct": false, "score": 0.0}]},
+    {"exam_id": "E_EVAL_OTHER", "student_id": "S_EVAL_OTHER", "answers": [{"question_id": "Q_SECRET_01", "answer": "B", "is_correct": false, "score": 0.0}]}
+  ],
+  "wrong_questions": [
+    {"student_id": "S_EVAL_MAIN", "course_id": "C_EVAL_MAIN", "question_id": "Q_LIST_01", "topic": "Python列表", "mistake": "误选 B"},
+    {"student_id": "S_EVAL_MAIN", "course_id": "C_EVAL_MAIN", "question_id": "Q_FUNC_01", "topic": "函数返回值", "mistake": "误选 B"},
+    {"student_id": "S_EVAL_OTHER", "course_id": "C_EVAL_OTHER", "question_id": "Q_SECRET_01", "topic": "隔离知识点", "mistake": "误选 B"}
+  ],
+  "materials": [
+    {"material_id": "M_LIST", "course_id": "C_EVAL_MAIN", "topic": "Python列表", "original_filename": "synthetic_list.md", "chunks": [
+      {"chunk_id": "M_LIST:chunk:1", "position": 1, "content": "Python 列表索引从 0 开始，长度为 3 时合法正向索引是 0、1、2。"},
+      {"chunk_id": "M_LIST:chunk:2", "position": 2, "content": "访问列表元素前应检查索引小于列表长度，避免越界。"}
+    ]},
+    {"material_id": "M_FUNC", "course_id": "C_EVAL_MAIN", "topic": "函数返回值", "original_filename": "synthetic_function.md", "chunks": [
+      {"chunk_id": "M_FUNC:chunk:1", "position": 1, "content": "函数没有显式 return 时返回 None。"}
+    ]},
+    {"material_id": "M_SECRET", "course_id": "C_EVAL_OTHER", "topic": "隔离知识点", "original_filename": "secret_course.md", "chunks": [
+      {"chunk_id": "M_SECRET:chunk:1", "position": 1, "content": "课程二独有结论：索引从99开始"}
+    ]}
+  ]
+}

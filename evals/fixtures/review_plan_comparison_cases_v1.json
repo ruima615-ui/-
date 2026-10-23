@@ -1,0 +1,20 @@
+[
+  {
+    "id": "plan_from_wrong_questions",
+    "student_id": "S_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "根据我在当前课程的考试错题，制定有资料依据的完整复习计划。"
+  },
+  {
+    "id": "zero_wrong_plan",
+    "student_id": "S_EVAL_EMPTY",
+    "material_mode": "success",
+    "question": "我没有错题，请根据我的错题制定复习计划。"
+  },
+  {
+    "id": "material_unavailable_plan",
+    "student_id": "S_EVAL_MAIN",
+    "material_mode": "unavailable",
+    "question": "根据我在当前课程的考试错题，制定有资料依据的完整复习计划。"
+  }
+]

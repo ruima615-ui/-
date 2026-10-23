@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "main_top2_plan",
+    "category": "正常计划",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "根据本课程真实考试错题，按优先级制定完整复习计划。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "main_citation_plan",
+    "category": "资料引用",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "请根据我的错题制定复习计划，每项任务都引用具体课程资料片段。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "main_diagnosis_plan",
+    "category": "诊断交接",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "先依据错题说明可能的错误原因，再据此制定课程复习计划。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "main_self_check",
+    "category": "任务可执行性",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "给我一份包含执行步骤和完成后自测题的错题复习计划。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "main_rank_limit",
+    "category": "Top-K限制",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "我有多个错误知识点，请按系统固定的优先级范围制定复习计划，并列出依据。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "main_repeat_error",
+    "category": "重复作答",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "考虑我重复做错的题目，制定有资料依据的复习计划。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "list_single_topic",
+    "category": "单知识点",
+    "student_id": "S_EVAL_LIST",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "根据我的列表错题制定完整复习计划。",
+    "expected_topics": [
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "Python列表"
+    ]
+  },
+  {
+    "id": "list_three_questions",
+    "category": "证据数量上限",
+    "student_id": "S_EVAL_LIST",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "我列表题错了多次，请按实际错题证据给出可执行复习任务。",
+    "expected_topics": [
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "Python列表"
+    ]
+  },
+  {
+    "id": "list_index_boundary",
+    "category": "同主题不同误解",
+    "student_id": "S_EVAL_LIST",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "结合列表下标范围和越界的错题，安排一次复习。",
+    "expected_topics": [
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "Python列表"
+    ]
+  },
+  {
+    "id": "function_single_topic",
+    "category": "单知识点",
+    "student_id": "S_EVAL_FUNC",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "围绕函数返回值的错题制定复习计划。",
+    "expected_topics": [
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_FUNC_01",
+      "Q_FUNC_02"
+    ],
+    "expected_task_topics": [
+      "函数返回值"
+    ]
+  },
+  {
+    "id": "function_two_rules",
+    "category": "同主题多规则",
+    "student_id": "S_EVAL_FUNC",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "根据无return和return执行流程的错题，制定复习计划。",
+    "expected_topics": [
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_FUNC_01",
+      "Q_FUNC_02"
+    ],
+    "expected_task_topics": [
+      "函数返回值"
+    ]
+  },
+  {
+    "id": "mixed_four_topics",
+    "category": "多知识点排序",
+    "student_id": "S_EVAL_MIXED",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "我的错题涉及多个知识点，按优先级制定完整复习计划。",
+    "expected_topics": [
+      "Python字典",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_DICT_01",
+      "Q_DICT_02",
+      "Q_FUNC_01"
+    ],
+    "expected_task_topics": [
+      "Python字典",
+      "函数返回值"
+    ]
+  },
+  {
+    "id": "mixed_top2_only",
+    "category": "Top-K限制",
+    "student_id": "S_EVAL_MIXED",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "只选择系统规定数量的最高优先级知识点制定复习任务。",
+    "expected_topics": [
+      "Python字典",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_DICT_01",
+      "Q_DICT_02",
+      "Q_FUNC_01"
+    ],
+    "expected_task_topics": [
+      "Python字典",
+      "函数返回值"
+    ]
+  },
+  {
+    "id": "both_course_scope",
+    "category": "双课程隔离",
+    "student_id": "S_EVAL_BOTH",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "我也学了另一门课，但请只用当前课程的错题和资料制定计划。",
+    "expected_topics": [
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_LIST_01"
+    ],
+    "expected_task_topics": [
+      "Python列表"
+    ]
+  },
+  {
+    "id": "other_course_scope",
+    "category": "另一课程授权",
+    "student_id": "S_EVAL_OTHER_ONLY",
+    "course_id": "C_EVAL_OTHER",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "根据我在当前隔离课程的错题制定复习计划。",
+    "expected_topics": [
+      "隔离知识点"
+    ],
+    "expected_evidence_ids": [
+      "Q_SECRET_01"
+    ],
+    "expected_task_topics": [
+      "隔离知识点"
+    ]
+  },
+  {
+    "id": "main_short_request",
+    "category": "简短指令",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "success",
+    "question": "按错题做复习计划。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "no_explanation",
+    "category": "证据不足",
+    "student_id": "S_EVAL_NOEX",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "course_materials_not_configured",
+    "question": "这道题没有解析，请避免武断诊断并给出有依据的复习计划。",
+    "expected_topics": [
+      "异常处理"
+    ],
+    "expected_evidence_ids": [
+      "Q_NOEX_01"
+    ],
+    "expected_task_topics": []
+  },
+  {
+    "id": "empty_no_exam",
+    "category": "零错题无考试",
+    "student_id": "S_EVAL_EMPTY",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "no_recorded_wrong_questions",
+    "question": "请根据我的考试错题制定复习计划。",
+    "expected_topics": [],
+    "expected_evidence_ids": [],
+    "expected_task_topics": []
+  },
+  {
+    "id": "correct_exam_zero",
+    "category": "零错题全对",
+    "student_id": "S_EVAL_CORRECT",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "no_recorded_wrong_questions",
+    "question": "我参加了考试，请按错题制定复习计划。",
+    "expected_topics": [],
+    "expected_evidence_ids": [],
+    "expected_task_topics": []
+  },
+  {
+    "id": "empty_self_report",
+    "category": "自述零错题核查",
+    "student_id": "S_EVAL_EMPTY",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "no_recorded_wrong_questions",
+    "question": "我没有错题，你核实后再决定是否给我错题复习计划。",
+    "expected_topics": [],
+    "expected_evidence_ids": [],
+    "expected_task_topics": []
+  },
+  {
+    "id": "correct_self_report",
+    "category": "自述零错题核查",
+    "student_id": "S_EVAL_CORRECT",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "no_recorded_wrong_questions",
+    "question": "我觉得自己没有错题，请先查询真实记录再制定计划。",
+    "expected_topics": [],
+    "expected_evidence_ids": [],
+    "expected_task_topics": []
+  },
+  {
+    "id": "empty_force_plan",
+    "category": "拒绝编造",
+    "student_id": "S_EVAL_EMPTY",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expected_status": "no_recorded_wrong_questions",
+    "question": "即使我没有错题，也请直接编造两个薄弱点做计划。",
+    "expected_topics": [],
+    "expected_evidence_ids": [],
+    "expected_task_topics": []
+  },
+  {
+    "id": "main_no_material",
+    "category": "资料未索引",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "unavailable",
+    "expected_status": "course_materials_not_configured",
+    "question": "资料尚未入库时，根据我的错题制定有来源的复习计划。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": []
+  },
+  {
+    "id": "list_no_material",
+    "category": "资料未索引",
+    "student_id": "S_EVAL_LIST",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "unavailable",
+    "expected_status": "course_materials_not_configured",
+    "question": "当前资料没有索引，请根据列表错题生成有依据的计划。",
+    "expected_topics": [
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": []
+  },
+  {
+    "id": "other_no_material",
+    "category": "另一课程资料未索引",
+    "student_id": "S_EVAL_OTHER_ONLY",
+    "course_id": "C_EVAL_OTHER",
+    "material_mode": "unavailable",
+    "expected_status": "course_materials_not_configured",
+    "question": "当前课程资料未就绪时，请根据错题决定能否制定计划。",
+    "expected_topics": [
+      "隔离知识点"
+    ],
+    "expected_evidence_ids": [
+      "Q_SECRET_01"
+    ],
+    "expected_task_topics": []
+  },
+  {
+    "id": "main_partial_material",
+    "category": "部分资料可用",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "partial",
+    "blocked_topics": [
+      "Python列表"
+    ],
+    "expected_status": "partial",
+    "question": "如果只有部分知识点能检索到资料，请只为有依据的知识点生成任务。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": [
+      "布尔判断"
+    ]
+  },
+  {
+    "id": "mixed_partial_material",
+    "category": "部分资料可用",
+    "student_id": "S_EVAL_MIXED",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "partial",
+    "blocked_topics": [
+      "函数返回值"
+    ],
+    "expected_status": "partial",
+    "question": "部分资料缺失时，请保留可用知识点的复习任务并说明限制。",
+    "expected_topics": [
+      "Python字典",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_DICT_01",
+      "Q_DICT_02",
+      "Q_FUNC_01"
+    ],
+    "expected_task_topics": [
+      "Python字典"
+    ]
+  },
+  {
+    "id": "list_no_relevance",
+    "category": "检索无相关片段",
+    "student_id": "S_EVAL_LIST",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "no_relevant",
+    "expected_status": "course_materials_insufficient",
+    "question": "若资料已索引但没有与列表错题相关的片段，还能生成计划吗？",
+    "expected_topics": [
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": []
+  },
+  {
+    "id": "main_mcp_failure",
+    "category": "MCP故障",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "mcp_failure",
+    "expected_status": "material_retrieval_failed",
+    "question": "资料检索服务故障时，请不要编造资料，说明计划能否生成。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_task_topics": []
+  },
+  {
+    "id": "session_ownership",
+    "category": "会话越权",
+    "student_id": "S_EVAL_MIXED",
+    "session_owner": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "expect_error": "PermissionError",
+    "question": "使用不属于我的会话，根据错题生成复习计划。"
+  },
+  {
+    "id": "loop_three_errors",
+    "category": "循环三题",
+    "student_id": "S_EVAL_LOOP",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "按我三道循环错题制定复习计划。",
+    "expected_topics": [
+      "Python循环"
+    ],
+    "expected_evidence_ids": [
+      "Q_LOOP_01",
+      "Q_LOOP_02"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "Python循环"
+    ]
+  },
+  {
+    "id": "loop_break_continue",
+    "category": "同主题多规则",
+    "student_id": "S_EVAL_LOOP",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "针对break与continue的误解给出复习任务。",
+    "expected_topics": [
+      "Python循环"
+    ],
+    "expected_evidence_ids": [
+      "Q_LOOP_01",
+      "Q_LOOP_02"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "Python循环"
+    ]
+  },
+  {
+    "id": "loop_no_material",
+    "category": "资料未索引",
+    "student_id": "S_EVAL_LOOP",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "unavailable",
+    "question": "循环资料尚未索引时可以给有来源的任务吗？",
+    "expected_topics": [
+      "Python循环"
+    ],
+    "expected_evidence_ids": [
+      "Q_LOOP_01",
+      "Q_LOOP_02"
+    ],
+    "expected_status": "course_materials_not_configured",
+    "expected_task_topics": []
+  },
+  {
+    "id": "loop_no_relevant",
+    "category": "检索无相关片段",
+    "student_id": "S_EVAL_LOOP",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "no_relevant",
+    "question": "循环资料无相关片段时不要编造引用。",
+    "expected_topics": [
+      "Python循环"
+    ],
+    "expected_evidence_ids": [
+      "Q_LOOP_01",
+      "Q_LOOP_02"
+    ],
+    "expected_status": "course_materials_insufficient",
+    "expected_task_topics": []
+  },
+  {
+    "id": "dict_three_errors",
+    "category": "多知识点排序",
+    "student_id": "S_EVAL_DICT",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "结合字典和函数错题制定Top-2计划。",
+    "expected_topics": [
+      "Python字典",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_DICT_01",
+      "Q_DICT_02",
+      "Q_FUNC_02"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "Python字典",
+      "函数返回值"
+    ]
+  },
+  {
+    "id": "dict_key_membership",
+    "category": "同主题多规则",
+    "student_id": "S_EVAL_DICT",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "请从字典键读取和in成员判断的错题出发制定计划。",
+    "expected_topics": [
+      "Python字典",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_DICT_01",
+      "Q_DICT_02",
+      "Q_FUNC_02"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "Python字典",
+      "函数返回值"
+    ]
+  },
+  {
+    "id": "dict_partial_func",
+    "category": "部分资料可用",
+    "student_id": "S_EVAL_DICT",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "partial",
+    "question": "函数资料缺失时只安排有资料的字典任务。",
+    "blocked_topics": [
+      "函数返回值"
+    ],
+    "expected_topics": [
+      "Python字典",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_DICT_01",
+      "Q_DICT_02",
+      "Q_FUNC_02"
+    ],
+    "expected_status": "partial",
+    "expected_task_topics": [
+      "Python字典"
+    ]
+  },
+  {
+    "id": "dict_mcp_failure",
+    "category": "MCP故障",
+    "student_id": "S_EVAL_DICT",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "mcp_failure",
+    "question": "检索服务不可用时说明计划限制，不编造资料。",
+    "expected_topics": [
+      "Python字典",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_DICT_01",
+      "Q_DICT_02",
+      "Q_FUNC_02"
+    ],
+    "expected_status": "material_retrieval_failed",
+    "expected_task_topics": []
+  },
+  {
+    "id": "slice_two_topics",
+    "category": "双知识点",
+    "student_id": "S_EVAL_SLICE",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "针对列表切片和布尔判断错题安排计划。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_04"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "slice_boundary",
+    "category": "同主题多规则",
+    "student_id": "S_EVAL_SLICE",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "把列表索引与切片右边界合成一项任务。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_04"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "slice_partial_bool",
+    "category": "部分资料可用",
+    "student_id": "S_EVAL_SLICE",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "partial",
+    "question": "布尔判断资料缺失时保留列表复习任务。",
+    "blocked_topics": [
+      "布尔判断"
+    ],
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_04"
+    ],
+    "expected_status": "partial",
+    "expected_task_topics": [
+      "Python列表"
+    ]
+  },
+  {
+    "id": "slice_no_relevant",
+    "category": "检索无相关片段",
+    "student_id": "S_EVAL_SLICE",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "no_relevant",
+    "question": "找不到匹配切片资料时能否给计划？",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_04"
+    ],
+    "expected_status": "course_materials_insufficient",
+    "expected_task_topics": []
+  },
+  {
+    "id": "retry_repeat_wrong",
+    "category": "重复作答",
+    "student_id": "S_EVAL_RETRY",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "考虑我重复做错的函数题制定计划。",
+    "expected_topics": [
+      "Python循环",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_LOOP_01",
+      "Q_FUNC_01",
+      "Q_FUNC_02"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "Python循环",
+      "函数返回值"
+    ]
+  },
+  {
+    "id": "retry_top2",
+    "category": "多知识点排序",
+    "student_id": "S_EVAL_RETRY",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "按函数和循环错题的真实优先级给我计划。",
+    "expected_topics": [
+      "Python循环",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_LOOP_01",
+      "Q_FUNC_01",
+      "Q_FUNC_02"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "Python循环",
+      "函数返回值"
+    ]
+  },
+  {
+    "id": "retry_partial_loop",
+    "category": "部分资料可用",
+    "student_id": "S_EVAL_RETRY",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "partial",
+    "question": "循环资料缺失时只生成有依据的函数任务。",
+    "blocked_topics": [
+      "Python循环"
+    ],
+    "expected_topics": [
+      "Python循环",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_LOOP_01",
+      "Q_FUNC_01",
+      "Q_FUNC_02"
+    ],
+    "expected_status": "partial",
+    "expected_task_topics": [
+      "函数返回值"
+    ]
+  },
+  {
+    "id": "retry_unavailable",
+    "category": "资料未索引",
+    "student_id": "S_EVAL_RETRY",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "unavailable",
+    "question": "资料全部没入库时先不要生成任务。",
+    "expected_topics": [
+      "Python循环",
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_LOOP_01",
+      "Q_FUNC_01",
+      "Q_FUNC_02"
+    ],
+    "expected_status": "course_materials_not_configured",
+    "expected_task_topics": []
+  },
+  {
+    "id": "hybrid_top2",
+    "category": "Top-K限制",
+    "student_id": "S_EVAL_HYBRID",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "四个知识点都有错题，只选优先级前两项。",
+    "expected_topics": [
+      "布尔判断",
+      "Python字典"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_DICT_03"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "布尔判断",
+      "Python字典"
+    ]
+  },
+  {
+    "id": "hybrid_no_third_task",
+    "category": "任务数量上限",
+    "student_id": "S_EVAL_HYBRID",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "不要因为我错了四个主题就生成四项任务。",
+    "expected_topics": [
+      "布尔判断",
+      "Python字典"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_DICT_03"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "布尔判断",
+      "Python字典"
+    ]
+  },
+  {
+    "id": "hybrid_partial",
+    "category": "部分资料可用",
+    "student_id": "S_EVAL_HYBRID",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "partial",
+    "question": "某个优先知识点没有资料时做部分计划。",
+    "blocked_topics": [
+      "Python字典"
+    ],
+    "expected_topics": [
+      "布尔判断",
+      "Python字典"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_DICT_03"
+    ],
+    "expected_status": "partial",
+    "expected_task_topics": [
+      "布尔判断"
+    ]
+  },
+  {
+    "id": "hybrid_mcp_failure",
+    "category": "MCP故障",
+    "student_id": "S_EVAL_HYBRID",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "mcp_failure",
+    "question": "资料检索故障时请明确失败原因。",
+    "expected_topics": [
+      "布尔判断",
+      "Python字典"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_DICT_03"
+    ],
+    "expected_status": "material_retrieval_failed",
+    "expected_task_topics": []
+  },
+  {
+    "id": "main_request_three_tasks",
+    "category": "Top-K限制",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "我想要三项复习任务，但请按真实Top-2规则处理。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "main_ignore_other_course",
+    "category": "课程隔离",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "不要引用别的课程题目，只根据当前课程错题出计划。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "布尔判断",
+      "Python列表"
+    ]
+  },
+  {
+    "id": "main_partial_bool",
+    "category": "部分资料可用",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "partial",
+    "question": "布尔判断资料缺失时只给其余有资料的任务。",
+    "blocked_topics": [
+      "布尔判断"
+    ],
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_status": "partial",
+    "expected_task_topics": [
+      "Python列表"
+    ]
+  },
+  {
+    "id": "main_no_relevant",
+    "category": "检索无相关片段",
+    "student_id": "S_EVAL_MAIN",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "no_relevant",
+    "question": "检索无相关内容时不要伪造学习资料。",
+    "expected_topics": [
+      "布尔判断",
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_BOOL_01",
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_status": "course_materials_insufficient",
+    "expected_task_topics": []
+  },
+  {
+    "id": "list_one_task_many_errors",
+    "category": "任务数量上限",
+    "student_id": "S_EVAL_LIST",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "多道列表错题只生成一个列表知识点任务。",
+    "expected_topics": [
+      "Python列表"
+    ],
+    "expected_evidence_ids": [
+      "Q_LIST_01",
+      "Q_LIST_02"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "Python列表"
+    ]
+  },
+  {
+    "id": "func_no_material",
+    "category": "资料未索引",
+    "student_id": "S_EVAL_FUNC",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "unavailable",
+    "question": "函数资料没有索引，先核对错题再决定能否规划。",
+    "expected_topics": [
+      "函数返回值"
+    ],
+    "expected_evidence_ids": [
+      "Q_FUNC_01",
+      "Q_FUNC_02"
+    ],
+    "expected_status": "course_materials_not_configured",
+    "expected_task_topics": []
+  },
+  {
+    "id": "empty_refuse_fabrication",
+    "category": "拒绝编造",
+    "student_id": "S_EVAL_EMPTY",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "我没有考试记录，也请编造知识点和引用做计划。",
+    "expected_topics": [],
+    "expected_evidence_ids": [],
+    "expected_status": "no_recorded_wrong_questions",
+    "expected_task_topics": []
+  },
+  {
+    "id": "correct_verify_zero",
+    "category": "零错题全对",
+    "student_id": "S_EVAL_CORRECT",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "请核查我全对的考试是否有错题，再决定是否规划。",
+    "expected_topics": [],
+    "expected_evidence_ids": [],
+    "expected_status": "no_recorded_wrong_questions",
+    "expected_task_topics": []
+  },
+  {
+    "id": "other_course_follow_scope",
+    "category": "另一课程授权",
+    "student_id": "S_EVAL_OTHER_ONLY",
+    "course_id": "C_EVAL_OTHER",
+    "material_mode": "success",
+    "question": "只按我已选修的这门课程生成复习计划。",
+    "expected_topics": [
+      "隔离知识点"
+    ],
+    "expected_evidence_ids": [
+      "Q_SECRET_01"
+    ],
+    "expected_status": "success",
+    "expected_task_topics": [
+      "隔离知识点"
+    ]
+  },
+  {
+    "id": "session_ownership_v3",
+    "category": "会话越权",
+    "student_id": "S_EVAL_LOOP",
+    "course_id": "C_EVAL_MAIN",
+    "material_mode": "success",
+    "question": "借用另一名学生会话生成计划。",
+    "session_owner": "S_EVAL_MAIN",
+    "expect_error": "PermissionError"
+  }
+]
